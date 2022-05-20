@@ -1,0 +1,60 @@
+textarea {
+    min-height: 300px;
+}
+/* whole page body color */
+body {
+  background: #1a1a1d;
+  padding-top: 3vh;
+}
+/* Headings */
+ h2, h3{
+  color: white;
+}
+/* New email compose form textfield+text color */
+.form-group input, .form-group input[disabled], .form-group input:focus {
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+/* New email compose form textarea color */
+#compose-form textarea {
+  background-color: #1f2833;
+  color: #c5c6c7;
+}
+/* New email (from) and (to) color */
+.form-group {
+  color: #c5c6c7;
+}
+/* buttons size */
+.size{
+  width: 100px;
+  text-align:center;
+}
+/* email view div section styling */
+#email-view {
+  background-color: #1f2833;
+  padding:20px;
+  padding-left:30px;
+  padding-right:30px;
+  color: lightgrey;
+  border-style: outset;
+}
+
+/* inbox email div section styling*/
+.arrow{
+  cursor: pointer;
+  border-radius: 5px 20px;
+  border-style:solid;
+}
+.arrow div:hover{
+  background-color:lightgrey;
+  border-radius: 3px 18px;
+}
+/* register and login text color */
+#T{
+  color:white;
+}
+/* archive and unarchive button */
+.arc{
+  width: 110px;
+  text-align:center;
+}
